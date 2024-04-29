@@ -3,11 +3,9 @@ const App = () => {
 
   return (
     <div>
-      <h1 className="text-6xl text-green-300">
-        Appwirte Megablog with Vite.
-      </h1>
+      <h1 className="text-6xl text-green-300">Appwirte Megablog with Vite.</h1>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
