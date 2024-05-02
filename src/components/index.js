@@ -1,14 +1,15 @@
-import Header from './header/Header';
+import Select from "./Select";
+import Header from "./header/Header";
 import Footer from './footer/Footer';
 import Container from './container/Container';
 import Logo from './Logo';
 import LogoutBtn from './header/LogoutBtn';
-import Button from './Button';
 import RTE from './RTE';
-import Register from './Register';
+import Register from "./Register";
 import Login from './Login';
-import PostCard from './PostCard';
+import Button from './Button';
 import PostForm from './post-form/PostForm';
+import PostCard from './PostCard';
 import AuthLayout from './AuthLayout';
 import Input from './Input';
 
@@ -18,12 +19,13 @@ export {
   Container,
   Logo,
   LogoutBtn,
-  Button,
   RTE,
   Register,
   Login,
-  PostCard,
+  Button,
   PostForm,
+  PostCard,
   AuthLayout,
-  Input
+  Input,
+  Select,
 };

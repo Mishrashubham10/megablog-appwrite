@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useId } from 'react';
+import { useId, forwardRef } from 'react';
 
 const Select = ({ options = [], label, className = '', ...props }, ref) => {
   const id = useId();
@@ -23,4 +23,4 @@ const Select = ({ options = [], label, className = '', ...props }, ref) => {
   );
 };
 
-export default React.forwardRef(Select);
+export default forwardRef(Select);

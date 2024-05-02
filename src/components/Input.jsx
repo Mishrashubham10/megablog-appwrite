@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import React, { useId } from 'react';
+import { useId, forwardRef } from 'react';
 
-const Input = React.forwardRef(function Input(
+const Input = forwardRef(function Input(
   { label, type = 'text', className = '', ...props },
   ref
 ) {
@@ -24,4 +24,4 @@ const Input = React.forwardRef(function Input(
   );
 });
 
-export default Input
+export default Input;
